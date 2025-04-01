@@ -9,6 +9,6 @@ import com.example.ListaDeTarefas.Entities.Usuario;
 @Repository
 public interface UsuarioRepository extends JpaRepository<Usuario, Long> {
 
-	UsuarioDTO insert(UsuarioDTO cadas);
+	UsuarioDTO salvar(UsuarioDTO dto);
 
 }
